@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/account"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:text="AccNo"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/AccNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:text="TypeLoan"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/TypeAcc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:text="Bank_Branch_id "
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/acBank_Branch_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:text="Balance "
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/acBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/AcOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="insert"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

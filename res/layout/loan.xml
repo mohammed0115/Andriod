@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="TextFields" >
+
+    <EditText
+        android:id="@+id/LoanNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView1"
+        android:ems="10"
+        tools:ignore="TextFields" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_marginTop="36dp"
+        android:text="LoanNo"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/Amoun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textView2"
+        android:ems="10"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Amoun"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Amoun"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/Bank_Branch_idloan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/textView4"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/type"
+        android:layout_marginTop="24dp"
+        android:text="Bank_Branch_id"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_below="@+id/LoanNo"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="20dp"
+        android:text="Amount"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignTop="@+id/type"
+        android:text="type"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/oklaon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/Bank_Branch_idloan"
+        android:layout_marginTop="34dp"
+        android:text="Okloan"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
